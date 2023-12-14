@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil Ferme de l'étang</title>
+    <!-- =================== css nivo slider ========================= -->
+    <link rel="stylesheet" href="themes/default/default.css">
+    <link rel="stylesheet" href="nivo-slider.css">
+
+    <!-- =============== librairie fonteawesome ====================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ============================ css ============================ -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ============================ Header ============================== -->
+
+    <header id="bandeau" class="container">
+        <a href="index.html">
+            <img class="logo" src="images/Ferme_de_l_étang-logo.png" alt="Logo Ferme de l'étang">
+        </a>
+        <nav id="menuPrincipal">
+            <div id="burger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produits.html">Nos produits</a></li>
+                <li><a href="actualites.html">Actualités</a></li>
+                <li><a href="recettes.html">Nos recettes</a></li>
+                <li><a href="contact.html">Contact/Réservation</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ============================ Main ============================== -->
+
+    <main>
+        <div class="accueil container">
+            <!-- ============================ Accueil ============================== -->
+            <img src="images/taureau-et-guil.jpg" id="photoAccueil" alt="Taureau et paysan">
+            <!-- ============================ slider ============================== -->
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/img_slider/cheptel.jpg" alt="cheptel">
+                    <img src="images/img_slider/Limousine.jpg" alt="vache limousine">
+                    <img src="images/img_slider/plaquette-jpeg.jpg" alt="vache gros plan">
+                    <img src="images/img_slider/tracteur.jpg" alt="tracteur">
+                </div>
+            </div>
+            <!-- =================================================================== -->
+
+            <aside id="texteAccueil">
+                <h2>Bienvenue à la ferme de l'étang !</h2>
+                <p>Nous sommes heureux de vous faire découvrir notre passion de l’élevage. Entre terre et mer, sur la
+                    commune morbihannaise d’Arradon, nous élevons en bio des vaches de race Limousine, des moutons et
+                    proposons de la viande d’agneau de juin à décembre. <br>
+                    Nos bêtes sont entièrement nourries avec les cultures produites sur la ferme et nos veaux sont
+                    nourris au lait maternel. <br>
+                    <br>Bonne visite
+                </p>
+                <p id="signature">Guillaume et Véronique</p>
+            </aside>
+        </div>
+        <!-- ============================ Accueil - Nos produits ========================= -->
+        <h2 id="produitsTitre">Nos produits</h2>
+        <div id="produits" class="container">
+
+            <article class="encartsProduits">
+                <img src="images/colisBoeuf.jpg" alt="viande de boeuf">
+                <h3>Boeuf au détail</h3>
+                <p>COLIS : Les colis de 5 kg sont adaptés pour les familles de 2 à 4 pers,
+                    les colis de 10kg sont adaptés pour les familles de 5 pers et +</p>
+                <a href="produits.html" class="boutonLienProduits">Tarifs</a>
+            </article>
+
+            <article class="encartsProduits">
+                <img src="images/colisVeau.jpg" alt="viande de veau">
+                <h3>Veau au détail</h3>
+                <p>COLIS : Les colis de 5 kg sont adaptés pour les familles de 2 à 4 pers,
+                    les colis de 10kg sont adaptés pour les familles de 5 pers et +</p>
+                <a href="produits.html" class="boutonLienProduits">Tarifs</a>
+            </article>
+
+            <article class="encartsProduits">
+                <img src="images/colisAgneau.jpg" alt="cotelettes d'agneau">
+                <h3>Agneau au détail</h3>
+                <p>COLIS : Les colis de 5 kg sont adaptés pour les familles de 2 à 4 pers,
+                    les colis de 10kg sont adaptés pour les familles de 5 pers et +</p>
+                <a href="produits.html" class="boutonLienProduits">Tarifs</a>
+            </article>
+
+        </div>
+
+        <!-- ============================ Footer =============================== -->
+        <footer id="footer" class="container">
+            <div class="colonne">
+                <img src="images/Ferme_de_l_étang-logo.png" alt="Logo Ferme de l'étang" class="logo">
+                <div id="menuFooter">
+                    <ul>
+                        <li><a href="mentions_legales.html">Mentions légales</a></li>
+
+                        <li><a href="#" class="cookie">Gestion des cookies</a></li>
+
+                        <li><a href="cgu.html">Conditions générales d'utilisation</a></li>
+                        <li><a href="cgVente.html">Conditions générales de vente</a></li>
+                    </ul>
+                    <div id="cookies">
+                        <h3 id="gestionCookies"><img src="images/cookies.png" alt="icone cookie"
+                                height="30px">Gestion des cookies</h3>
+                        <p><span>www.lafermedeletang.com</span> dépose des cookies pour améliorer votre
+                            expérience de navigation, mesurer l'audience du site internet, afficher des publicités
+                            personnalisées, réaliser des campagnes ciblées et personnaliser l'interface du site.</p>
+
+                        <a href="#" class="boutonsCookies">REFUSER</a>
+                        <a href="#" class="boutonsCookies">PARAMETRER</a>
+                        <a class="boutonsCookies" id="boutonAccept">ACCEPTER</a>
+                    </div>
+                </div>
+                <div id="socialLink">
+                    <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.facebook.com/?locale=fr_FR"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+            </div>
+            <div id="copyright">
+                <p>Copyright &copy; 2023 - Greta Bretagne Sud</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- library de mon script -->
+    <script src="scripts/jquery-1.9.0.min.js"></script>
+    <!-- script de mon slider -->
+    <script src="scripts/jquery.nivo.slider.js"></script>
+    <script>
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+        // <!-- script burger -->
+        $("#menuPrincipal #burger i").click(function () {
+            $("#menuPrincipal ul").addClass("on").slideToggle(1500);
+        });
+        // <!-- script cookies -->
+        $(".cookie").click(function () {
+            $("#cookies").show(1000);
+        });
+        $("#boutonAccept").click(function () {
+            $("#cookies").hide(1000);
+        });
+    </script>
+
+</body>
+
+</html>
